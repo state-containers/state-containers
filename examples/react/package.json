@@ -1,0 +1,21 @@
+{
+    "name": "@state-containers/examples-react",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "bunx --bun vite"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/react": "18.2.25",
+        "@types/react-dom": "^18.2.22",
+        "@vitejs/plugin-react": "^4.2.1",
+        "vite": "^5.1.6"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    }
+}
